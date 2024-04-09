@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: #fdfdfd;
   font-family: sans-serif;
   font-size: 15px;
 }
@@ -19,7 +19,7 @@ div.part {
 }
 div.part1 {
   grid-column: span 4;
-  background-color: rgb(88, 100, 203);
+  background-color: #4488ed;
   color: #fff;
   text-align: center;
   vertical-align: center;
@@ -29,7 +29,7 @@ div.part1 {
   float: right;
 }
 .part1 button {
-  background-color: rgb(45, 56, 154);
+  background-color: #0c61d3;
   border: none;
   border-radius: 4px;
   padding: 4px 8px;
@@ -39,7 +39,7 @@ div.part1 {
 div.part2 {
   position: relative;
   grid-row: span 5;
-  background-color: rgb(227, 225, 225);
+  background-color: #f3f4f6;
 }
 div.part2 p:nth-child(1) {
   font-weight: bolder;
@@ -48,7 +48,7 @@ div.part2 button {
   border: none;
   border-radius: 4px;
   padding: 4px 8px;
-  color: rgb(77, 77, 77);
+  color: #f3f4f6;
 }
 div.part2 button:hover {
   color: rgb(59, 57, 57);
@@ -60,7 +60,7 @@ div.part2 button.ask {
   text-align: left;
 }
 div.part2 .gray {
-  background-color: rgb(195, 193, 193);
+  background-color: #e5e9f5;
   border-radius: 5px;
   padding: 1px 15px 2px 6px;
   margin-top: 10px;
@@ -81,7 +81,7 @@ div.part3,
 }
 .grid2 {
   display: flex;
-  background-color: rgb(227, 225, 225);
+  background-color: #f6f7f9;
   padding: 15px;
   margin-top: -20px;
   border-radius: 4px;
@@ -104,7 +104,7 @@ h1 {
 .docs {
   height: 24px;
   width: 60px;
-  background-color: rgb(51, 51, 208);
+  background-color: #78a8f1;
   font-size: 12px;
   border-radius: 1em;
   text-align: center;
@@ -113,7 +113,7 @@ h1 {
   margin-bottom: 10px;
 }
 .part6 .part66 {
-  background-color: rgb(129, 129, 209);
+  background-color: #c9daf8;
   padding: 40px 0 40px 35px;
   margin: 0;
   border-radius: 4px;
@@ -138,12 +138,11 @@ h1 {
 }
 .slash {
   display: inline-block;
-  border: 1px solid rgb(51, 51, 246);
+  border: 1px solid rgb(149, 149, 243);
   border-radius: 3px;
-  background-color: rgb(84, 84, 236);
+  background-color: #a3c3f7;
   width: 18px;
   height: 27px;
-  /* padding: -3px; */
   margin-bottom: 3px;
   text-align: center;
 }
@@ -169,7 +168,7 @@ button:hover {
 }
 
 .part1 button:hover {
-  background-color: rgb(32, 43, 141);
+  background-color: rgb(65, 75, 168);
   cursor: pointer;
 }
 .part2 p {
@@ -179,7 +178,7 @@ button:hover {
   cursor: pointer;
 }
 .part2 p:hover {
-  background-color: rgb(191, 191, 233);
+  background-color: #e5e9f5;
 }
 .gray .small:hover {
   background-color: rgb(165, 163, 163);
