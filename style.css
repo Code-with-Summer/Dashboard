@@ -1,196 +1,257 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    background-color: #fff;
-    font-family: sans-serif;
-    font-size: 15px;
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
 }
-.bodyy{
-    display: grid;
-    grid-template-columns: 2fr 1fr 4fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 3fr 1.5fr 2.5fr 0.7fr;
+.bodyy {
+  display: grid;
+  grid-template-columns: 2fr 1fr 4fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 3fr 1.5fr 2.5fr 0.7fr;
 }
-div.part{
-    background-color: #fff;
-    /* border: 1px solid black; */
-    padding: 10px;
+div.part {
+  background-color: #fff;
+  /* border: 1px solid black; */
+  padding: 10px;
 }
-div.part1{
-    grid-column: span 4;
-    background-color: rgb(88, 100, 203);
-    color: #fff;
-    text-align: center;
-    vertical-align: center;
+div.part1 {
+  grid-column: span 4;
+  background-color: rgb(88, 100, 203);
+  color: #fff;
+  text-align: center;
+  vertical-align: center;
 }
-.part1 .right{
-    display: flex;
-    float: right;
+.part1 .right {
+  display: flex;
+  float: right;
 }
-.part1 button{
-    background-color: rgb(45, 56, 154);
-    border: none;
-    border-radius: 4px;
-    padding: 4px 8px;
-    color: white;
-}
-
-div.part2{
-    position: relative;
-    grid-row: span 5;
-    background-color: rgb(227, 225, 225);
-}
-div.part2 p:nth-child(1){
-    font-weight: bolder;
-}
-div.part2 button{
-    border: none;
-    border-radius: 4px;
-    padding: 4px 8px;
-    color: rgb(77, 77, 77);
-}
-div.part2 button:hover{
-    color: rgb(59, 57, 57);
-    background-color: rgb(204, 204, 204);
+.part1 button {
+  background-color: rgb(45, 56, 154);
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: white;
 }
 
-div.part2 button.ask{
-    width: 86%;
-    text-align: left;
+div.part2 {
+  position: relative;
+  grid-row: span 5;
+  background-color: rgb(227, 225, 225);
 }
-div.part2 .gray{
-    background-color: rgb(195, 193, 193);
+div.part2 p:nth-child(1) {
+  font-weight: bolder;
+}
+div.part2 button {
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: rgb(77, 77, 77);
+}
+div.part2 button:hover {
+  color: rgb(59, 57, 57);
+  background-color: rgb(204, 204, 204);
+}
+
+div.part2 button.ask {
+  width: 86%;
+  text-align: left;
+}
+div.part2 .gray {
+  background-color: rgb(195, 193, 193);
+  border-radius: 5px;
+  padding: 1px 15px 2px 6px;
+  margin-top: 10px;
+}
+div.part2 .small {
+  font-size: 14px;
+  margin-top: 0px;
+}
+div.part2 .bold {
+  margin-bottom: 0px;
+}
+div.part3,
+.part4,
+.part5,
+.part6,
+.part7 {
+  grid-column: span 3;
+}
+.grid2 {
+  display: flex;
+  background-color: rgb(227, 225, 225);
+  padding: 15px;
+  margin-top: -20px;
+  border-radius: 4px;
+}
+h1 {
+  font-size: 46px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.collab {
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.doc {
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: -14px;
+}
+.docs {
+  height: 24px;
+  width: 60px;
+  background-color: rgb(51, 51, 208);
+  font-size: 12px;
+  border-radius: 1em;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+.part6 .part66 {
+  background-color: rgb(129, 129, 209);
+  padding: 40px 0 40px 35px;
+  margin: 0;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: flex-start;
+}
+.part6 img {
+  width: 60%;
+  float: right;
+}
+.part4,
+.part5,
+.part6,
+.part7 {
+  width: 70%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.slash {
+  display: inline-block;
+  border: 1px solid rgb(51, 51, 246);
+  border-radius: 3px;
+  background-color: rgb(84, 84, 236);
+  width: 18px;
+  height: 27px;
+  /* padding: -3px; */
+  margin-bottom: 3px;
+  text-align: center;
+}
+.third {
+  width: 170%;
+}
+.part77 {
+  background-color: rgb(224, 223, 223);
+  padding: 10px 0 10px 10px;
+  border-radius: 4px;
+}
+.down {
+  margin-bottom: -10px;
+  position: absolute;
+  bottom: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+.cross {
+  height: 23px;
+  margin-left: 6px;
+}
+
+.part1 button:hover {
+  background-color: rgb(32, 43, 141);
+  cursor: pointer;
+}
+.part2 p {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.part2 p:hover {
+  background-color: rgb(191, 191, 233);
+}
+.gray .small:hover {
+  background-color: rgb(165, 163, 163);
+}
+.gray .bold:hover {
+  background-color: rgb(195, 193, 193);
+  cursor: auto;
+}
+.icons {
+  height: 15px;
+}
+a {
+  text-decoration: none;
+  color: rgb(31, 28, 28);
+}
+button input {
+  border: none;
+  width: 100%;
+  background-color: rgb(249, 247, 247);
+  border-radius: 4px;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  width: 90%;
+  border-radius: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 4px;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: rgb(195, 193, 193);
+}
+.dropdown-content p {
+  margin: 0px;
+  background-color: rgb(222, 219, 219);
+}
+.part3 span{
+    font-size: 20px;
+    font-weight: 500;
     border-radius: 5px;
-    padding: 1px 15px 2px 6px;
-    margin-top: 10px;
+    display: none;
+    width: 100%;
 }
-div.part2 .small{
-    font-size: 14px;
-    margin-top: 0px;
-}
-div.part2 .bold{
-    margin-bottom: 0px;
-}
-div.part3,.part4, .part5,.part6, .part7 {
-    grid-column: span 3;
-}
-.grid2{
-    display: flex;
-    background-color: rgb(227, 225, 225);
-    padding: 15px;
-    margin-top: -20px;
-    border-radius: 4px;
-}
-h1{
-    font-size: 46px;
-    font-weight: bolder;
-    margin-top: 10px;
-}
-.collab{
-    font-size: 34px;
+.part3 span:hover{
     font-weight: bold;
-    margin-top: 0px;
-}
-.doc{
-    font-size: 16px;
-    font-weight: bolder;
-    margin-top: -14px;
-}
-.docs{
-    height: 24px;
-    width: 60px;
-    background-color: rgb(51, 51, 208);
-    font-size: 12px;
-    border-radius: 1em;
-    text-align: center;
-    padding-top: 5px;
-    color: white;
-    margin-bottom: 10px;
-}
-.part6 .part66{
-    background-color: rgb(129, 129, 209);
-    padding: 40px 0 40px 35px;
-    margin: 0;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 18px;
-    display: flex;
-    align-items: flex-start;
-}
-.part6 img{
-    width: 60%;
-    float: right;
-}
-.part4, .part5, .part6, .part7{
-    width: 70%;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 10px;
-}
-.slash{
-    display: inline-block;
-    border: 1px solid rgb(51, 51, 246);
-    border-radius: 3px;
-    background-color: rgb(84, 84, 236);
-    width: 18px;
-    height: 27px;
-    /* padding: -3px; */
-    margin-bottom: 3px;
-    text-align: center;
-}
-.third{
-    width: 170%;
-}
-.part77{
-    background-color: rgb(224, 223, 223);
-    padding: 10px 0 10px 10px;
-    border-radius: 4px;
-}
-.down{
-    margin-bottom: -10px;
-    position: absolute;
-    bottom: 0;
-}
-button:hover{
-    cursor: pointer;
-}
-.cross{
-    height: 23px;
-    margin-left: 6px;
 }
 
-.part1 button:hover{
-    background-color:  rgb(32, 43, 141);
-    cursor: pointer;
-}
-.part2 p{
-    padding: 8px;
-    margin: 8px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.part2 p:hover{
-    background-color: rgb(191, 191, 233);
-}
-.gray .small:hover{
-    background-color: rgb(165, 163, 163);
-}
-.gray .bold:hover{
-    background-color: rgb(195, 193, 193);
-    cursor: auto;
-}
-.icons{
-    height: 15px;
-}
-a{
-    text-decoration: none;
-    color: rgb(31, 28, 28);
-}
-button input{
-    border: none;
-    width: 100%;
-    background-color: rgb(249, 247, 247);
-    border-radius: 4px;
+/* NAVIGATION BAR */
+
+@media (max-width: 768px) {
+    .part2 {
+        display: none;
+    }
+    .part3 span{
+        display: inline-block;
+    }
+    .dropdown p{
+        font-size: 16px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .dropdown p:hover{
+        background-color: rgb(198, 196, 196);
+    }
 }
