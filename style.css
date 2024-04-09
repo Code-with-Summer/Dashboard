@@ -236,10 +236,20 @@ button input {
 .part3 span:hover{
     font-weight: bold;
 }
+.photo_none{
+    display: none;
+}
 
 /* NAVIGATION BAR */
 
 @media (max-width: 768px) {
+    .bodyy{
+        display: flex;
+        flex-direction: column;
+    }
+    div.right button{
+        display: none;
+    }
     .part2 {
         display: none;
     }
@@ -253,5 +263,13 @@ button input {
     }
     .dropdown p:hover{
         background-color: rgb(198, 196, 196);
+    }
+    .part6 .photo{
+        display: none;
+    }
+    .photo_none{
+        display: block;
+        padding: 10px;
+        align-self: center;
     }
 }
